@@ -1,0 +1,43 @@
+.d-block {
+    height: 90vh;
+}
+.carousel-caption {
+    text-shadow: 0 0 30px #000;
+}
+
+.carousel-caption h1 {
+margin-bottom: 100px;
+text-align: left;
+ font-size: 50px;
+ font-weight: 700;
+}
+.input-group {
+    width: 400px;
+    margin-bottom: 200px;
+}
+input[type="text"]:focus {
+    border-color: rgba(126, 239, 104, 0.8);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    outline: 0 none;
+}
+
+@media screen and (max-width:720px) {
+    .carousel-indicators{
+        position: absolute;
+        top: 10px;
+    }
+    
+    .d-block {
+    height: 40vh;
+    background-position: 40% 50%;
+    }
+    .carousel-caption h1{
+        font-size: 25px;
+       margin-bottom: 40px;
+        color: #fff;
+    }
+  
+.input-group {
+    margin-bottom: 0;
+}
+}
