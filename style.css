@@ -4,7 +4,12 @@
 .carousel-caption {
     text-shadow: 0 0 30px #000;
 }
-
+.nav-link:hover  {
+    color: lightgreen;
+}
+.nav-link:hover {
+    color: lightgreen;
+}
 .carousel-caption h1 {
 margin-bottom: 100px;
 text-align: left;
