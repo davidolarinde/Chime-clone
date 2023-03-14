@@ -1,3 +1,4 @@
+
 .d-block {
     height: 90vh;
 }
@@ -7,14 +8,18 @@
 }
 
 .nav-link:hover {
-    color: lightgreen;
+    color: #1ec677;
 
 }
 
+.carousel-caption .btn-primary {
+    background-color: lightgreen;
+}
 
 .nav-link:hover {
-    color: lightgreen;
+    color: #1ec677;
 }
+
 
 .carousel-caption h1 {
     margin-bottom: 1px;
@@ -23,7 +28,11 @@
     font-weight: 700;
 }
 
-.row {
+.carousel-caption h1 {
+    margin-bottom: 70px;
+}
+
+#carousel-caption .row {
     margin-bottom: 50px;
 }
 
@@ -31,7 +40,7 @@ label {
     color: #000;
 }
 
-.row .btn {
+#carousel-caption .row .btn {
     padding: 15px 40px;
     background-color: limegreen;
     border: 0;
@@ -40,52 +49,41 @@ label {
 }
 
 input[type="text"] {
-   width: 300px;
+    width: 300px;
     border-radius: 30px;
     padding: 10px 30px;
 }
 
+input[type="text"]::placeholder {
+    color: gainsboro;
+}
+
 input[type="text"]:focus {
-    border-color: rgba(126, 239, 104, 0.8);
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(126, 239, 104, 0.6);
+    border-color: #0000008b;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 10px #000;
     outline: 0 none;
 }
 
-@media screen and (max-width:720px) {
-    .carousel-indicators {
-        position: absolute;
-        top: 10px;
-    }
-
-    .d-block {
-        height: 40vh;
-        background-position: 40% 50%;
-    }
-
-
-   p {
-    display: none;
-
-   }
-   .carousel-caption h1 {
-    font-size: 15px;
-    margin-right: 20px;
-   }
-   .row {
-top: 100px;
-  position: relative;
-   }
-   .carousel-control-prev,
-   .carousel-control-next {
-    display: none;
-   }
-   input[type=text] {
-    padding: 5px 40px;
-    margin-top: 100px;
-   }
-.row .btn {
-    padding: 10px 120px;
-    margin-top: 40px;
+.btn-primary {
+    padding: 10px 100px;
 }
 
+@media screen and (max-width:720px) {
+    .carousel-caption h1 {
+        font-size: 20px;
+    }
+
+    .row .btn {
+        margin-top: 40px;
+        width: 300px;
+    }
+    #details .row .col img {
+        width: 300px;
+    }
+    #early .row .col img {
+width: 300px;
+    }
+    #fees-section .row .col img {
+        width: 300px;
+    }
 }
