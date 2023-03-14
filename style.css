@@ -83,8 +83,12 @@ input[type="text"]:focus {
 h1 {
     font-size: 20px;
 }
+#secure {
+    padding-bottom: 100px;
+}
 #secure .row .col img {
-width: 200px;
+width: 180px;
+
 }
 @media screen and (max-width:720px) {
     .carousel-caption h1 {
