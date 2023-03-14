@@ -91,6 +91,9 @@ width: 180px;
 
 }
 @media screen and (max-width:720px) {
+    .carousel-inner img{
+        height: 400px;
+    } 
     .carousel-caption h1 {
         font-size: 20px;
     }
