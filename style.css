@@ -1,6 +1,7 @@
 body {
     padding-top: 10px;
 }
+
 .d-block {
     height: 90vh;
 }
@@ -8,9 +9,11 @@ body {
 .carousel-caption {
     text-shadow: 0 0 30px #000;
 }
+
 nav {
-    box-shadow: 0 0 2px black, 0 1px 2px black ;
+    box-shadow: 0 0 2px black, 0 1px 2px black;
 }
+
 .nav-link:hover {
     color: #1ec677;
 
@@ -71,33 +74,42 @@ input[type="text"]:focus {
 .btn-primary {
     padding: 10px 100px;
 }
+
 .section img {
     width: 300px;
 }
+
 .section .btn {
     border-radius: 10px;
 }
+
 .section .btn:hover {
     background-color: black;
 }
+
 h1 {
     font-size: 20px;
 }
+
 #secure {
     padding-bottom: 100px;
 }
+
 #secure .row .col img {
-width: 180px;
+    width: 180px;
 
 }
+
 @media screen and (max-width:720px) {
-    .carousel-inner img{
+    .carousel-inner img {
         height: 400px;
         background-position: 50% 50%;
-    } 
+    }
+
     .carousel-inner p {
         display: none;
     }
+
     .carousel-caption h1 {
         font-size: 20px;
     }
@@ -106,15 +118,19 @@ width: 180px;
         margin-top: 40px;
         width: 300px;
     }
+
     #details .row .col img {
         width: 300px;
     }
+
     #early .row .col img {
-width: 400px;
+        width: 400px;
     }
+
     #fees-section .row .col img {
         width: 300px;
     }
+
     #support {
         width: 10%;
     }
