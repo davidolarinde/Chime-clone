@@ -72,10 +72,19 @@ input[type="text"]:focus {
     padding: 10px 100px;
 }
 .section img {
-    width: 400px;
+    width: 300px;
+}
+.section .btn {
+    border-radius: 10px;
 }
 .section .btn:hover {
     background-color: black;
+}
+h1 {
+    font-size: 20px;
+}
+#secure .row .col img {
+width: 200px;
 }
 @media screen and (max-width:720px) {
     .carousel-caption h1 {
