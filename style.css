@@ -95,6 +95,9 @@ width: 180px;
         height: 400px;
         background-position: 50% 50%;
     } 
+    .carousel-inner p {
+        display: none;
+    }
     .carousel-caption h1 {
         font-size: 20px;
     }
