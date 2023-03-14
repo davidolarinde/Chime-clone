@@ -93,6 +93,7 @@ width: 180px;
 @media screen and (max-width:720px) {
     .carousel-inner img{
         height: 400px;
+        background-position: 50% 50%;
     } 
     .carousel-caption h1 {
         font-size: 20px;
@@ -106,7 +107,7 @@ width: 180px;
         width: 300px;
     }
     #early .row .col img {
-width: 300px;
+width: 400px;
     }
     #fees-section .row .col img {
         width: 300px;
