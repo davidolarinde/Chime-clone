@@ -115,4 +115,7 @@ width: 400px;
     #fees-section .row .col img {
         width: 300px;
     }
+    #support {
+        width: 10%;
+    }
 }
