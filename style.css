@@ -1,4 +1,6 @@
-
+body {
+    padding-top: 10px;
+}
 .d-block {
     height: 90vh;
 }
@@ -6,7 +8,9 @@
 .carousel-caption {
     text-shadow: 0 0 30px #000;
 }
-
+nav {
+    box-shadow: 0 0 2px black, 0 1px 2px black ;
+}
 .nav-link:hover {
     color: #1ec677;
 
@@ -67,7 +71,12 @@ input[type="text"]:focus {
 .btn-primary {
     padding: 10px 100px;
 }
-
+.section img {
+    width: 400px;
+}
+.section .btn:hover {
+    background-color: black;
+}
 @media screen and (max-width:720px) {
     .carousel-caption h1 {
         font-size: 20px;
